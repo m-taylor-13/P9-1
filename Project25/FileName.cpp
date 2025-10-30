@@ -23,4 +23,10 @@ int main(void) {
 	cout << endl;
 
 
+	cout << "\nEven indices: ";
+	for (int i = 0; i < 10; i += 2) {
+		cout << numbers[i] << "  ";
+	}
+	cout << endl;
+
 }
