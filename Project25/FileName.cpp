@@ -39,4 +39,12 @@ int main(void) {
 	cout << endl;
 
 
+	cout << "\nReversed order: ";
+	for (int i = 9; i >= 0; i--) {
+		cout << numbers[i] << "  ";
+	}
+	cout << endl;
+
+	cout << "\nFirst and last: " << numbers[0] << "  " << numbers[9] << endl;
+
 }
