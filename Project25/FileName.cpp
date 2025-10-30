@@ -29,4 +29,14 @@ int main(void) {
 	}
 	cout << endl;
 
+
+	cout << "\nEven values: ";
+	for (int i = 0; i < 10; i++) {
+		if (numbers[i] % 2 == 0) {
+			cout << numbers[i] << "  ";
+		}
+	}
+	cout << endl;
+
+
 }
